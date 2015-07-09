@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		305D00541B4E75A900F00B39 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		305DFFBD1B4E4AB000F00B39 /* NKDelegateTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKDelegateTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		305DFFC11B4E4AB000F00B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		305DFFC91B4E4AB000F00B39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 			children = (
 				305DFFEC1B4E4AE100F00B39 /* AppDelegate.swift */,
 				305DFFF41B4E4C4E00F00B39 /* NKBootController.swift */,
+				305D00541B4E75A900F00B39 /* README.md */,
 			);
 			path = Boot;
 			sourceTree = "<group>";
@@ -336,6 +338,7 @@
 				305DFFDE1B4E4AB000F00B39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
