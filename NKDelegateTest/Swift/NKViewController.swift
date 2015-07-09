@@ -1,6 +1,6 @@
 //
 //  NKViewController.swift
-//  NKCamera
+//  NKDelegateTest
 //
 //  Created by nanoka____ on 2015/07/09.
 //  Copyright (c) 2015年 nanoka____. All rights reserved.

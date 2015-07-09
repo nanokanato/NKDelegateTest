@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  NKCamera
+//  NKDelegateTest
 //
 //  Created by nanoka____ on 2015/07/09.
 //  Copyright (c) 2015年 nanoka____. All rights reserved.
@@ -41,9 +41,10 @@ class AppDelegate : UIResponder, UIApplicationDelegate, NKBootControllerDelegate
     /*-----------------------------------------------------------------
     ; didEndBootController(bootController : 起動時通信が終了した
     ;                                  in : bootController(NKBootController)
+    ;                                     : flag(Bool)
     ;                                 out :
     ------------------------------------------------------------------*/
-    func didEndBootController(bootController: NKBootController) {
+    func didEndBootController(bootController: NKBootController, flag: Bool) {
         //ウインドウの初期化
         self.window!.rootViewController = nil
         self.window = nil

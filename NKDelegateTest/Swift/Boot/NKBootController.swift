@@ -16,7 +16,7 @@ import UIKit
 ---------------------------------------------------------------------*/
 protocol NKBootControllerDelegate {
     //起動時処理終了後に呼び出されるメソッド
-    func didEndBootController(bootController: NKBootController)
+    func didEndBootController(bootController: NKBootController flag:Bool)
 }
 
 /*=====================================================================
@@ -57,8 +57,8 @@ class NKBootController : UIViewController {
             }, completion: { finished in
                 //アニメーションの終了
                 
-                //起動時処理の終了を通知
-                self.delegate.didEndBootController(self)
+                //起動時処理の終了を通知(自分自身と成功失敗のフラグを返す)
+                self.delegate.didEndBootController(self, flag: true)
             }
         )
     }
